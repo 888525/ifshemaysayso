@@ -1,0 +1,276 @@
+<script>
+	// <![CDATA[require("TimeSlice").guard((function(){
+	bigPipe.onPageletArrive({
+	content: {
+		pagelet_sidebar: {
+			container_id: "u_0_3u"
+		}
+	}
+	, jsmods: {
+		instances: [["__inst_dbfd3947_0_0", ["SidebarAppTickerResizer", "__elem_3b7e319a_0_0", "__elem_3b7e319a_0_1", "__elem_3b7e319a_0_2"], [{
+				__m: "__elem_3b7e319a_0_0"
+}
+
+			
+			, {
+				__m: "__elem_3b7e319a_0_1"
+}
+
+			
+			, {
+				__m: "__elem_3b7e319a_0_2"
+}
+
+			
+			, null, true, false, false], 1], ["__inst_6d41db38_0_1", ["ScrollableArea", "__elem_6d41db38_0_1"], [{
+				__m: "__elem_6d41db38_0_1"
+}
+
+			
+			, {
+				persistent: true
+				, shadow: false
+}
+			], 1], ["__inst_012ab79b_0_0", ["ChatOrderedList", "__elem_012ab79b_0_0"], [true, {
+				__m: "__elem_012ab79b_0_0"
+}
+			], 2]]
+		, elements: [["__elem_dbfd3947_0_0", "u_0_3p", 1], ["__elem_3b7e319a_0_1", "apps_gripper", 1], ["__elem_3b7e319a_0_0", "u_0_3q", 1], ["__elem_3b7e319a_0_2", "pages_gripper", 1], ["__elem_6d41db38_0_1", "u_0_3r", 1], ["__elem_012ab79b_0_0", "u_0_3s", 1], ["__elem_a588f507_0_m", "u_0_3t", 1]]
+		, require: [["ChatTypeaheadCore", "init", ["__elem_a588f507_0_m"], [{
+				__m: "__elem_a588f507_0_m"
+}
+
+			
+			, "100011408476025", true, true], []], ["ChatSidebar", "init", ["__elem_dbfd3947_0_0", "__inst_012ab79b_0_0"], [{
+				__m: "__elem_dbfd3947_0_0"
+}
+
+			
+			, {
+				__m: "__inst_012ab79b_0_0"
+}
+			], []], ["ChatUnreadCount", "getForFBID", [], ["100011408476025"], []], ["__inst_dbfd3947_0_0"], ["TickerController", "registerPlaceholder", [], ["pagelet_ticker", {
+				show_birthdays: false
+				, source: "fst_sidebar"
+				, width: 205
+}
+			], []], ["__inst_6d41db38_0_1"], ["__inst_012ab79b_0_0"]]
+		, define: [["ClientChromeExperimentsData", [], {
+				shouldShowClientChrome: false
+				, ClientChromeAvailableListInitialDataPreloader: null
+}
+
+			
+			, 1694], ["ChatOptionsInitialData", [], {
+				sound: 1
+				, sidebar_mode: 1
+				, browser_notif: 0
+				, hide_groups: 1
+				, call_blocked_until: 0
+				, hide_buddylist: 1
+}
+
+			
+			, 13], ["ChatSidebarData", ["ChatSidebarPreloader"], {
+				AsyncDataPreloader: {
+					__m: "ChatSidebarPreloader"
+				}
+				, WebGraphQLPreloader: null
+}
+
+			
+			, 1942], ["InitialChatFriendsList", [], {
+				groups: []
+				, list: []
+				, shortProfiles: {}
+				, nearby: []
+}
+
+			
+			, 26], ["AvailableListInitialData", [], {
+				activeList: []
+				, lastActiveTimes: {
+					"100006927880763": 1482197497
+					, "100002307448642": 1482252339
+					, "100008435498303": 1482205591
+					, "100004079208555": 1482139435
+					, "1437813559": 1482279775
+					, "100003645175418": 1482252841
+					, "100004452612762": 1481877980
+					, "100010079233765": 1482233493
+					, "100003615442058": 1482061321
+					, "100002376602975": 1482249056
+					, "100003129835193": 1482250900
+					, "100000364713401": 1482247027
+					, "100001214620857": 1482257339
+					, "100001653326737": 1482278486
+					, "100002146324666": 1482134095
+					, "100004203642471": 1482265542
+					, "100012906636193": 1482245530
+					, "100010324933847": 1482252596
+					, "100002724546371": 1482250416
+					, "100007474218430": 1482254540
+					, "100010083765943": 1482256598
+					, "100001711481071": 1482257964
+					, "100002457316353": 1482257346
+					, "100009555922204": 1482247014
+					, "100012589261755": 1482254697
+					, "100011041954027": 1482276623
+					, "100001016964570": 1482276664
+					, "100003682758479": 1482245320
+					, "100002504732472": 1482251515
+					, "1214886737": 1482252544
+					, "100011826785462": 1482241301
+					, "100000156044298": 1482231157
+					, "100012816726135": 1482146327
+					, "100001528816116": 1482074074
+					, "100009301525351": 1482252039
+					, "100001028507573": 1482244634
+					, "100002141317804": 1482251078
+					, "100012608447889": 1482250817
+					, "100007690808996": 1482232786
+					, "100000895361953": 1482278526
+					, "100011397460917": 1482255451
+					, "100012029470817": 1482274986
+					, "100009094987256": 1482269098
+					, "100001730001703": 1482247247
+					, "1029998259": 1482278597
+				}
+				, chatNotif: 0
+}
+
+			
+			, 166]]
+	}
+	, bootloadable: {
+		ChannelManager: {
+			resources: ["q5KTO", "smMCF", "D08ke", "Vx1iU", "wT9ip", "tnJde", "ge+mS", "vcFjy"]
+			, module: 1
+		}
+		, ChannelTransport: {
+			resources: ["q5KTO", "smMCF", "D08ke", "Vx1iU", "tnJde"]
+			, module: 1
+		}
+		, MessengerTypeaheadUtils: {
+			resources: ["H/eh6", "2O5o/", "RqZjE", "smMCF", "Vx1iU", "tnJde", "F0FOt", "D08ke", "8Pe+I"]
+			, module: 1
+		}
+		, "MessengerTypeaheadView.react": {
+			resources: ["tnJde", "wT9ip", "Vx1iU", "smMCF", "q5KTO", "H/eh6", "F0FOt", "bTuDI", "RqZjE", "0lJzc", "QsfSN", "ge+mS", "8Pe+I", "/1KDm", "OXN70", "8tJLC", "o9Zo9", "n3CYQ", "2O5o/", "9gO6U", "UXKU3", "D08ke", "uAgKx"]
+			, module: 1
+		}
+		, ChatSidebarActions: {
+			resources: ["smMCF", "Vx1iU", "RqZjE", "tnJde", "ge+mS", "q5KTO"]
+			, module: 1
+		}
+		, "ConversationNubHeaderMenu.react": {
+			resources: ["smMCF", "q5KTO", "9gO6U", "cXp81", "Vx1iU", "8Pe+I", "tnJde", "RqZjE", "MOjBh", "NFHnz", "wT9ip", "OhcPe", "3n1Gx", "R650u", "4DPUR", "POrfq"]
+			, module: 1
+		}
+		, "ChatSidebarDropdown.react": {
+			resources: ["smMCF", "Vx1iU", "tnJde", "T3yqd", "9gO6U", "8sTKj", "CT4Ud", "ge+mS", "RqZjE", "q5KTO", "o9Zo9", "2O5o/", "8Pe+I", "UXKU3", "POrfq", "MOjBh", "NFHnz", "wT9ip", "OhcPe", "3n1Gx", "vcFjy", "4DPUR", "a1/Vk"]
+			, module: 1
+		}
+		, SidebarType: {
+			resources: ["ge+mS"]
+			, module: 1
+		}
+		, goURI: {
+			resources: []
+			, module: 1
+		}
+		, UIPagelet: {
+			resources: ["tnJde", "smMCF", "Vx1iU", "T3yqd", "9gO6U"]
+			, module: 1
+		}
+		, ChannelConnection: {
+			resources: ["tnJde", "q5KTO", "smMCF", "D08ke", "Vx1iU", "wT9ip", "ge+mS", "vcFjy"]
+			, module: 1
+		}
+	}
+	, resource_map: {
+		uAgKx: {
+			type: "js"
+			, src: "https: //www.facebook.com/rsrc.php/v3/y6/r/MFpyHovHY3y.js"
+			, crossOrigin: 1
+		}
+		, MOjBh: {
+			type: "js"
+			, src: "https: //www.facebook.com/rsrc.php/v3/yf/r/E02c6VYOv49.js"
+			, crossOrigin: 1
+		}
+		, OhcPe: {
+			type: "css"
+			, src: "https: //www.facebook.com/rsrc.php/v3/y4/r/UDpEcHtl6qo.css"
+			, permanent: 1
+			, crossOrigin: 1
+		}
+		, R650u: {
+			type: "js"
+			, src: "https: //www.facebook.com/rsrc.php/v3iUCc4/yY/l/en_GB/OqgfRAqKJFr.js"
+			, crossOrigin: 1
+		}
+		, "8sTKj": {
+			type: "css"
+			, src: "https: //www.facebook.com/rsrc.php/v3/yQ/r/TDzfq8wfOGU.css"
+			, permanent: 1
+			, crossOrigin: 1
+		}
+		, CT4Ud: {
+			type: "js"
+			, src: "https: //www.facebook.com/rsrc.php/v3ihPT4/yi/l/en_GB/XQtbNk3gSiN.js"
+			, crossOrigin: 1
+		}
+		, "a1/Vk": {
+			type: "css"
+			, src: "https: //www.facebook.com/rsrc.php/v3/yN/r/G8CjWonlk3q.css"
+			, permanent: 1
+			, crossOrigin: 1
+		}
+		, jC5nR: {
+			type: "js"
+			, src: "https: //www.facebook.com/rsrc.php/v3/ya/r/QygmtAQ1yio.js"
+			, crossOrigin: 1
+		}
+		, gIHqy: {
+			type: "js"
+			, src: "https: //www.facebook.com/rsrc.php/v3/ya/r/_FeGcrlSWmo.js"
+			, crossOrigin: 1
+		}
+	}
+	, ixData: {
+		"/images/chat/sidebar/buddylist_nub/phone.png": {
+			sprited: true
+			, spriteMapCssClass: "sp_w4iBpkB_gah"
+			, spriteCssClass: "sx_8e4acb"
+		}
+		, "/images/gifts/icons/cake_icon.png": {
+			sprited: true
+			, spriteMapCssClass: "sp_w4iBpkB_gah"
+			, spriteCssClass: "sx_705991"
+		}
+		, "games: dark: small": {
+			sprited: true
+			, spriteMapCssClass: "sp_w4iBpkB_gah"
+			, spriteCssClass: "sx_6085ce"
+		}
+		, "/images/assets_DO_NOT_HARDCODE/fb_glyphs/info_16_fig-dark-70.png": {
+			sprited: true
+			, spriteMapCssClass: "sp_w4iBpkB_gah"
+			, spriteCssClass: "sx_567719"
+		}
+	}
+	, allResources: ["smMCF", "Vx1iU", "q5KTO", "Rp3Bl", "og2x3", "ge+mS", "tnJde", "RqZjE", "wT9ip", "2O5o/", "9gO6U", "n3CYQ", "8Pe+I", "D08ke", "o9Zo9", "vcFjy", "0lJzc", "H/eh6", "UXKU3", "YtUzD", "q8qsO", "F0FOt", "T3yqd", "jC5nR", "H1Uvl", "gIHqy"]
+	, displayResources: ["smMCF", "Vx1iU", "q5KTO", "og2x3", "ge+mS", "tnJde", "RqZjE", "n3CYQ", "8Pe+I", "o9Zo9", "0lJzc", "H1Uvl", "gIHqy"]
+	, id: "pagelet_sidebar"
+	, phase: 4
+	, categories: ["sidebar"]
+	})
+	}
+	), "onPageletArrive pagelet_sidebar", {
+		"root": true
+		, "pagelet": "pagelet_sidebar"
+	}
+	)();
+	// ]]>
+</script>Online HTML EditorThe best real-time online HTML editor software kit with dynamic instant live visual preview and inline WYSIWYG editor using CKEditor and markup clean-up feature. Includes a HTML viewer, editor, compressor, beautifier and easy formatter. It's impossible to create invalid code with this free tool.The operation of this HTML5 editor with built-in HTML Cleaner is very intuitive and it's working in your browser without installing any additional program. Compose your text using the WYSIWYG editor on the left and adjust formatting in the source code editor on the right. To convert Microsoft Word, PDF or any other rich-text documents to HTML, simply paste it in the visual editor. Perform bulk operations on the HTML code by clicking the Clean button after adjusting the settings.online html editorBefore you start composing the content for a live website I advise you to experiment with the features populating the work area with a demo text clicking the Quick Tour menu item.The visual editor works like a regular text composer program, just use the commands above the text area to adjust the content and in the meantime you'll notice the source editor changing with it. If you're familiar with the HTML code composing then you can adjust the code on the right. The control panel above the HTML source editor lists the most important commands: – Revert the text back to the state before the cleaning or execution of any other major event. The visual editor has its own Undo button.– The fresh page command starts a new document. The same feature is listed below File / New document.– Load the Bootstrap css style into the visual editor. This can be undone only by refreshing the page.– Deleting the new lines from the HTML code you can compress the source code.– Define replacement rules and execute them. Use the plus button to define new rules and the recycle bin to remove one.– Fill the page with meaningless writing to fill gaps or experiment with the layout.– Pick a colour from the palette and use them with the easy Click and Copy feature. Save the active colors for later use or use the advanced color mixer by RGBColorCode.com– Adjust the font size according to your preferences.– Set up the cleaning options here. Your settings will not be lost when you leave the website. Click the header to select/disable all options.Clean – Execute the selected options.Never forget: Have a backup before using this tool to make sure you can always revert back to your original document.Check your code before publishing. We are not responsible for any errors.Our website never saves or sends your documents, all operations are performed on your local computer.Like most websites, this one uses cookies.Div table stylingMake sure you apply the CSS code below when you publish tables converted to div elements..rTable { display: table; width: 100% } .rTableRow { display: table-row } .rTableHeading { background-color: #ddd; display: table-header-group } .rTableCell, .rTableHead { display: table-cell; padding: 3px 10px; border: 1px solid #999999 } .rTableHeading { display: table-header-group; background-color: #ddd; font-weight: 700 } .rTableFoot { display: table-footer-group; font-weight: 700; background-color: #ddd } .rTableBody { display: table-row-group }
