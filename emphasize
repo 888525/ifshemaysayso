@@ -1,0 +1,717 @@
+<script>
+	require("TimeSlice")
+		.guard((function () {
+			bigPipe.onPageletArrive({
+				jsmods: {
+					require: [["AsyncData", "resolve", [], ["ChatSidebarInitialDataPreloader", {
+							result: {
+								groups: []
+								, list: ["100006927880763-2", "100006132575384-2", "100002307448642-2", "100008435498303-2", "100004079208555-2", "100011759087900-2", "1437813559-2", "100003645175418-2", "100004452612762-2", "100011949974475-2", "100010079233765-2", "100011889646044-2", "100003615442058-2", "100011917484527-2", "100012216424670-2", "100002376602975-2", "100012150600168-2", "100011729081416-2", "100008889313037-2", "100006372070714-2", "100011954149159-2", "100003129835193-2", "100009957639633-2", "100012053111096-2", "100012853986458-2", "100000364713401-2", "100001214620857-2", "100011013047113-2", "100001653326737-2", "100002146324666-2", "100004203642471-2", "100012729708246-2", "100011759206095-2", "100001077387748-2", "100012906636193-2", "100010324933847-2", "100010771607404-2", "100011956335319-2", "100012893497807-2", "100011417638138-2", "100012169051335-2", "100003012007519-2", "100002724546371-2", "100012104588082-2", "100011637284309-2", "100007474218430-2", "100012337920981-2", "100012867485465-2", "100011603676479-2", "100010083765943-2", "100001711481071-2", "100002457316353-2", "100009555922204-2", "100012669274909-2", "100012026860882-2", "100012872616503-2", "100012589261755-2", "100011041954027-2", "100001016964570-2", "100003682758479-2", "100012411858427-2", "100012005821004-2", "100012012942834-2", "100002504732472-2", "100011430504494-2", "100011679947273-2", "100011742526307-2", "100012850206055-2", "100012798341181-2", "100011197605900-2", "100010735548022-2", "1214886737-2", "100011133754052-2", "100012111768882-2", "100011826785462-2", "100000156044298-2", "100011346818873-2", "100011894687678-2", "100012816726135-2", "100011962424155-2", "100001528816116-2", "100009301525351-2", "100011667647751-2", "100001028507573-2", "100002141317804-2", "100011767176248-2", "100012608447889-2", "100007690808996-2", "100011731225134-2", "100000895361953-2", "100011397460917-2", "100012029470817-2", "100011770910184-2", "100011509759068-2", "100007248452911-2", "100009094987256-2", "100011574886534-2", "100001730001703-2", "1029998259-2", "100011750943064-2", "100012941582893-2", "100012649655537-2", "100012023589471-2", "100009416583846-2", "100007282877861-2", "100011789619529-2", "100011705837371-2", "100012836672345-2", "100009999915351-2", "100004047093354-2", "100011743970702-2", "100012127805484-2", "100008312435251-2", "100011352594242-2", "100011364565975-2", "100011994993996-2", "100012060308164-2", "100012754003890-2", "100012743469447-2", "100012717014299-2", "100012786757622-2", "1322181144-2", "100011364136149-2", "100011597109802-2", "100011216979436-2", "100012547487540-2", "100011675307907-2", "100008369737730-2", "100011715308339-2", "100012616637728-2", "100011502100878-2", "100012097507331-2", "100008867132204-2", "100011610439195-2", "100004127611089-2", "100004438650131-2", "100007170303888-2", "100012176446111-2", "100011383854708-2", "100011321825558-2", "100012303909433-2", "100011768176964-2", "100001705393491-2", "100011415746457-2", "100008435498303-0", "100001653326737-0", "100011768176964-0", "100012185767196-0", "100012185767196-2", "100001705393491-0", "100012176446111-0", "100011415746457-0", "100004127611089-0", "100004438650131-0", "100011383854708-0", "100009416583846-0", "100012836672345-0", "100011731225134-0", "100011574886534-0", "100011364136149-0", "100011610439195-0", "100011364565975-0", "100012097507331-0", "100011509759068-0", "100012754003890-0", "100011675307907-0", "100011994993996-0", "100012060308164-0", "100007170303888-0", "100012303909433-0", "100008369737730-0", "100011502100878-0", "100012743469447-0", "100011770910184-0", "100011743970702-0", "100011750943064-0", "100011321825558-0", "100010226028059-2", "100010226028059-0", "1322181144-0", "100012616637728-0", "100011597109802-0", "100011715308339-0", "100012786757622-0", "100012547487540-0", "100011216979436-0", "100011352594242-0", "100007248452911-0", "100012872616503-0", "100011417638138-0", "100012798341181-0", "1214886737-0", "100012717014299-0", "100012203612047-0", "100012904562242-2", "100012904562242-0", "100011807707498-2", "100011807707498-0", "100011825135659-2", "100011825135659-0", "100011842804691-0", "100011842804691-2", "100008849761298-0", "100011897084499-2", "100011897084499-0", "100012808182715-2", "100012808182715-0", "100011731663484-2", "100011731663484-0", "100011969175610-2", "100011969175610-0", "100008849761298-2", "100011741127172-0", "100011741127172-2", "100012706608409-0", "100012068201456-2", "100012203612047-2", "100011713480732-0", "100011713480732-2", "100012068201456-0", "100012706608409-2", "100012023589471-0", "100008867132204-0", "100009999915351-0", "100010735548022-0", "100001016964570-0", "100007282877861-0", "100011667647751-0", "100012127805484-0", "100012578417233-2", "100011728077239-0", "100012578417233-0", "100011728077239-2", "100011949974475-0", "100004047093354-0", "100011430504494-0", "100011197605900-0", "100012029470817-0", "100012816726135-0", "100011789619529-0", "100008312435251-0", "100009094987256-0", "100011705837371-0", "100011962424155-0", "100011767176248-0", "100001214620857-0", "1437813559-0", "100002307448642-0", "100011679947273-0", "100011013047113-0", "100006927880763-0", "100011041954027-0", "100011346818873-0", "100009301525351-0", "100012012942834-0", "100012941582893-0", "100006372070714-0", "100011729081416-0", "100011954149159-0", "100011627597101-0", "100011627597101-2", "100001028507573-0", "100011637284309-0", "100012411858427-0", "100012853986458-0", "100010083765943-0", "100012729708246-0", "100012906636193-0", "100012893497807-0", "100012053111096-0", "100012150600168-0", "100010079233765-0", "100011889646044-0", "100003012007519-0", "100003645175418-0", "100012169051335-0", "100012026860882-0", "100012216424670-0", "100012337920981-0", "100011826785462-0", "100011956335319-0", "100012649655537-0", "100011133754052-0", "100011742526307-0", "100001528816116-0", "100004203642471-0", "100004452612762-0", "100006132575384-0", "100004079208555-0", "100011759087900-0", "100000364713401-0", "100003615442058-0", "100010324933847-0", "100001077387748-0", "100003129835193-0", "100011759206095-0", "100010771607404-0", "100001711481071-0", "100009957639633-0", "100012589261755-0", "100002724546371-0", "100011917484527-0", "100012111768882-0", "100002504732472-0", "100000156044298-0", "100012608447889-0", "100012850206055-0", "100012104588082-0", "100012867485465-0", "100012669274909-0", "100011894687678-0", "100011603676479-0", "100002376602975-0", "100009555922204-0", "100002457316353-0", "100007474218430-0", "100012005821004-0", "100007690808996-0", "100002146324666-0", "100008889313037-0", "100000895361953-0", "100011397460917-0", "100001730001703-0", "1029998259-0", "100002141317804-0", "100003682758479-0", "1427594218-2", "100014437020286-2", "1427594218-0", "100014437020286-0"]
+								, shortProfiles: {
+									"100008435498303": {
+										id: "100008435498303"
+										, name: "Srikanth Malige"
+										, firstName: "Srikanth"
+										, vanity: ""
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/15319108_1679008262390341_2027221611638917752_n.jpg?oh=5c124ca729562af58f105be55c05891f&oe=58F983BC"
+										, uri: "https: //www.facebook.com/profile.php?id=100008435498303"
+										, gender: 2
+										, i18nGender: 16777216
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Malige", "Srikanth"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100001653326737": {
+										id: "100001653326737"
+										, name: "Gordy Powell"
+										, firstName: "Gordy"
+										, vanity: "gordy.powell.14"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/14595804_1138417159556717_8383775321622351996_n.jpg?oh=5e4fb192b8b024263430108f20533060&oe=58AF4D55"
+										, uri: "https: //www.facebook.com/gordy.powell.14"
+										, gender: 2
+										, i18nGender: 16777216
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Powell", "Gordy"]
+										, alternateName: "Fame"
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100011768176964": {
+										id: "100011768176964"
+										, name: "Sumit Mishra"
+										, firstName: "Sumit"
+										, vanity: "sumitt.mishraa"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c4.0.32.32/p32x32/14224692_226383151097289_5395681715824946451_n.jpg?oh=32c5924458ce18a653c2a1d8ffeb26d7&oe=58DF3D45"
+										, uri: "https: //www.facebook.com/sumitt.mishraa"
+										, gender: 2
+										, i18nGender: 16777216
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Mishra", "Sumit"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100001705393491": {
+										id: "100001705393491"
+										, name: "Jhansi Reddy"
+										, firstName: "Jhansi"
+										, vanity: "rpteamwork"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/15193647_1213513085382193_7681152372592550309_n.jpg?oh=267c480d62ebb389c75610f8cdfb9cd2&oe=58F8D642"
+										, uri: "https: //www.facebook.com/rpteamwork"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Reddy", "Jhansi"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100012176446111": {
+										id: "100012176446111"
+										, name: "Priya Roy"
+										, firstName: "Priya"
+										, vanity: ""
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/13265922_128254804257067_3434225578775094204_n.jpg?oh=241472d07b82476efdb9636291961f34&oe=58F27E25"
+										, uri: "https: //www.facebook.com/profile.php?id=100012176446111"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Roy", "Priya"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100011415746457": {
+										id: "100011415746457"
+										, name: "Sriram Joshi"
+										, firstName: "Sriram"
+										, vanity: "sriram.joshi.98"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c0.0.32.32/p32x32/13879440_340902466300275_4826195918229411688_n.jpg?oh=72f4be5c5212b828b877e62538c07cd3&oe=58E70BCF"
+										, uri: "https: //www.facebook.com/sriram.joshi.98"
+										, gender: 2
+										, i18nGender: 16777216
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Joshi", "Sriram"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100004127611089": {
+										id: "100004127611089"
+										, name: "Seema Singh"
+										, firstName: "Seema"
+										, vanity: ""
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c0.0.32.32/p32x32/15192627_753929004754680_7029634131245500736_n.jpg?oh=dd711969f2a375978cf757ee180fa101&oe=58EFF173"
+										, uri: "https: //www.facebook.com/profile.php?id=100004127611089"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Singh", "Seema"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100004438650131": {
+										id: "100004438650131"
+										, name: "Şům Êđh"
+										, firstName: "Şům"
+										, vanity: "sumedhrock"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c0.4.32.32/p32x32/15232141_727019170789365_2098630418132011563_n.jpg?oh=6c2ee3603079d692ce9bae3c9586e7e9&oe=58EA9866"
+										, uri: "https: //www.facebook.com/sumedhrock"
+										, gender: 2
+										, i18nGender: 16777216
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Êđh", "Şům"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100011383854708": {
+										id: "100011383854708"
+										, name: "Choae Dile Mon"
+										, firstName: "Choae Dile"
+										, vanity: "mdmonna.mia.543"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/15400473_434044720318319_2953989439946591684_n.jpg?oh=06ab045b220abb2b052be1ffa37aa2f3&oe=58F8752E"
+										, uri: "https: //www.facebook.com/mdmonna.mia.543"
+										, gender: 2
+										, i18nGender: 16777216
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Mon", "Choae", "Dile"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100009416583846": {
+										id: "100009416583846"
+										, name: "Preeti Thakur"
+										, firstName: "Preeti"
+										, vanity: ""
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/12928117_1603426436647894_4150421521638613715_n.jpg?oh=3cab11d033e920ef69dce8d8b97048d1&oe=58DF9645"
+										, uri: "https: //www.facebook.com/profile.php?id=100009416583846"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Thakur", "Preeti"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100012836672345": {
+										id: "100012836672345"
+										, name: "Ragini Mishra"
+										, firstName: "Ragini"
+										, vanity: "ragini.mishra.75248"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c0.11.32.32/p32x32/15355738_225163457921542_1536761016788929301_n.jpg?oh=e0b13d088942fd8b5f8f8abccddcfd92&oe=58FAC8C0"
+										, uri: "https: //www.facebook.com/ragini.mishra.75248"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Mishra", "Ragini"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100011731225134": {
+										id: "100011731225134"
+										, name: "Sajina Khatun"
+										, firstName: "Sajina"
+										, vanity: "sajina.khatun.77"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/13087511_151218551945851_2925402798016831887_n.jpg?oh=a0afb478be1501b9c6b261b2f7632e96&oe=58E98B76"
+										, uri: "https: //www.facebook.com/sajina.khatun.77"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Khatun", "Sajina"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100011574886534": {
+										id: "100011574886534"
+										, name: "Kelly Cristina"
+										, firstName: "Kelly"
+										, vanity: ""
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/l/t1.0-1/p32x32/13241363_179432375785924_5516901110670056762_n.jpg?oh=85456adbea611cc9d035cd5249079a03&oe=58E7F273"
+										, uri: "https: //www.facebook.com/profile.php?id=100011574886534"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Cristina", "Kelly"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100011364136149": {
+										id: "100011364136149"
+										, name: "Kìllér ßøy"
+										, firstName: "Kìllér"
+										, vanity: "ritika.rajput.169067"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/15541664_439292436459557_5470804855208810259_n.jpg?oh=c01adc7a3d4560df24bf25b7f99430d0&oe=58DD6670"
+										, uri: "https: //www.facebook.com/ritika.rajput.169067"
+										, gender: 2
+										, i18nGender: 16777216
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["ßøy", "Kìllér"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100011610439195": {
+										id: "100011610439195"
+										, name: "Neetu Gupta"
+										, firstName: "Neetu"
+										, vanity: "neetu.gupta.77736310"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/12987123_149154692148211_8027524458720981093_n.jpg?oh=bf1f485056a1856ee0752bb51ae0b7f7&oe=58E178B3"
+										, uri: "https: //www.facebook.com/neetu.gupta.77736310"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Gupta", "Neetu"]
+										, alternateName: "no inbox please"
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100011364565975": {
+										id: "100011364565975"
+										, name: "Shiela Mae R. Lopez"
+										, firstName: "Shiela Mae R."
+										, vanity: ""
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c0.3.32.32/p32x32/15401151_429592310762917_6819472012045982815_n.jpg?oh=ae9d2b601a5898582c5d8c6a4b016a23&oe=58F79919"
+										, uri: "https: //www.facebook.com/profile.php?id=100011364565975"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Lopez", "Shiela", "Mae", "R."]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100012097507331": {
+										id: "100012097507331"
+										, name: "Priya Sharma"
+										, firstName: "Priya"
+										, vanity: ""
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/13174129_118343421912241_6796186015583466741_n.jpg?oh=8cd788d6639ad1d447a376e66af4c8f6&oe=58E2A7A0"
+										, uri: "https: //www.facebook.com/profile.php?id=100012097507331"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Sharma", "Priya"]
+										, alternateName: "im ziddi"
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100011509759068": {
+										id: "100011509759068"
+										, name: "Vinita Shukla"
+										, firstName: "Vinita"
+										, vanity: ""
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/12933089_161305140929810_1910685225253724386_n.jpg?oh=ae09a9bee7a751f6a277884aa72e3930&oe=58E60EC0"
+										, uri: "https: //www.facebook.com/profile.php?id=100011509759068"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Shukla", "Vinita"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100012754003890": {
+										id: "100012754003890"
+										, name: "Nisha Sharma"
+										, firstName: "Nisha"
+										, vanity: ""
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/14370213_184497751985357_9128301902731353709_n.jpg?oh=7f101e3b6a012f95dd99729bf88fc8cc&oe=58DF016C"
+										, uri: "https: //www.facebook.com/profile.php?id=100012754003890"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Sharma", "Nisha"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100011675307907": {
+										id: "100011675307907"
+										, name: "Sara Pineda"
+										, firstName: "Sara"
+										, vanity: "sara.pineda.7712"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/15589688_325969444468896_6246178357662338241_n.jpg?oh=a595b81a49380a93aa547370f2d3f1e2&oe=58FBB9B8"
+										, uri: "https: //www.facebook.com/sara.pineda.7712"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Pineda", "Sara"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100011994993996": {
+										id: "100011994993996"
+										, name: "Sapna Form Haryanvi Dancer"
+										, firstName: "Sapna Form Haryanvi"
+										, vanity: "sapnaformharyanvi.dancer"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/13010694_102070810202752_7238327224618019256_n.jpg?oh=0ab0a124f3b9e483ba473fc05e31d13f&oe=58DF62CA"
+										, uri: "https: //www.facebook.com/sapnaformharyanvi.dancer"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Dancer", "Sapna", "Form", "Haryanvi"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100012060308164": {
+										id: "100012060308164"
+										, name: "Vishnu Priya"
+										, firstName: "Vishnu"
+										, vanity: ""
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/13873252_172315089847167_1078314578557529694_n.jpg?oh=e908eddb74ca96398cc668187d6d65c8&oe=58F95D68"
+										, uri: "https: //www.facebook.com/profile.php?id=100012060308164"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Priya", "Vishnu"]
+										, alternateName: "malu "
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100007170303888": {
+										id: "100007170303888"
+										, name: "Rekha Choubey"
+										, firstName: "Rekha"
+										, vanity: "rekhachoubey.rekhachoubey"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/15337425_1787781984804128_7564419075398797622_n.jpg?oh=c9be945c710584d1646925dbd7974c3b&oe=58E3B171"
+										, uri: "https: //www.facebook.com/rekhachoubey.rekhachoubey"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Choubey", "Rekha"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100012303909433": {
+										id: "100012303909433"
+										, name: "Muthukrishnan Murugesan"
+										, firstName: "Muthukrishnan"
+										, vanity: "muthukrishnan.murugesan.7"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/13754656_163895754030554_3911700186583905346_n.jpg?oh=0de5966913f92c39f4031e87bd05ad22&oe=58FA0911"
+										, uri: "https: //www.facebook.com/muthukrishnan.murugesan.7"
+										, gender: 2
+										, i18nGender: 16777216
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Murugesan", "Muthukrishnan"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100008369737730": {
+										id: "100008369737730"
+										, name: "Chandrakala B O"
+										, firstName: "Chandrakala B O"
+										, vanity: "bochandrakala.orse"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c0.0.32.32/p32x32/14191995_1814922822130025_5584386936980037605_n.jpg?oh=092a4788c2a5e26eb877e49ebf883f5b&oe=58E43844"
+										, uri: "https: //www.facebook.com/bochandrakala.orse"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["O", "Chandrakala", "B"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100011502100878": {
+										id: "100011502100878"
+										, name: "Margie Degracia"
+										, firstName: "Margie"
+										, vanity: "margie.degracia.1"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/14938344_298978290495572_9102136476484286855_n.jpg?oh=03655967ba6af7cd6b67cebd43ea7d80&oe=58DCDA3B"
+										, uri: "https: //www.facebook.com/margie.degracia.1"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Degracia", "Margie"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100012743469447": {
+										id: "100012743469447"
+										, name: "Nidhi Mishra"
+										, firstName: "Nidhi"
+										, vanity: ""
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/13620107_111956782572437_6727222367780911197_n.jpg?oh=a39215a104f38e713daae6b4df26f5eb&oe=58AFAA21"
+										, uri: "https: //www.facebook.com/profile.php?id=100012743469447"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, is_birthday: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Mishra", "Nidhi"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100011770910184": {
+										id: "100011770910184"
+										, name: "Rajni Patil"
+										, firstName: "Rajni"
+										, vanity: "rajni.patil.7334"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c0.5.32.32/p32x32/13006585_133434167058946_7466207134491819175_n.jpg?oh=d9d1974aad4a24c47755e5d2e843e5ab&oe=58DCC03A"
+										, uri: "https: //www.facebook.com/rajni.patil.7334"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Patil", "Rajni"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100011743970702": {
+										id: "100011743970702"
+										, name: "Priya Singh"
+										, firstName: "Priya"
+										, vanity: ""
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/12107192_143062999428498_3882233458923437108_n.jpg?oh=7f62d024d0ca96d04cb6e5044b670763&oe=58F2E279"
+										, uri: "https: //www.facebook.com/profile.php?id=100011743970702"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Singh", "Priya"]
+										, alternateName: "priyu"
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100011750943064": {
+										id: "100011750943064"
+										, name: "Sonam Dixit"
+										, firstName: "Sonam"
+										, vanity: "sonam.dixit.731"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c0.5.32.32/p32x32/1915768_104492043285827_6158817467152294392_n.jpg?oh=7e2339100195f87fc232f3e9a170e97c&oe=58F66F4D"
+										, uri: "https: //www.facebook.com/sonam.dixit.731"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Dixit", "Sonam"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100011321825558": {
+										id: "100011321825558"
+										, name: "Excilent Boy Anik"
+										, firstName: "Excilent Boy"
+										, vanity: "excilentboy.anik"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c0.0.32.32/p32x32/15541207_332183500502375_796612404719437031_n.jpg?oh=e9e31aa3f87ce3c8183ea28741d2c3c1&oe=58FD30D1"
+										, uri: "https: //www.facebook.com/excilentboy.anik"
+										, gender: 2
+										, i18nGender: 16777216
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Anik", "Excilent", "Boy"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "1322181144": {
+										id: "1322181144"
+										, name: "Rob Hannley"
+										, firstName: "Rob"
+										, vanity: "hannley"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/11214239_10207164286528484_2563147337063930631_n.jpg?oh=2e841b041ad53efc285efc32e9d82752&oe=58EDBDB1"
+										, uri: "https: //www.facebook.com/hannley"
+										, gender: 2
+										, i18nGender: 16777216
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Hannley", "Rob"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100012616637728": {
+										id: "100012616637728"
+										, name: "Narayan Swamy"
+										, firstName: "Narayan"
+										, vanity: "narayan.swamy.334839"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c0.1.32.32/p32x32/15078854_220310158399537_2147810258804927054_n.jpg?oh=7056b12734e3e1161b236fafe0528b27&oe=58E674E0"
+										, uri: "https: //www.facebook.com/narayan.swamy.334839"
+										, gender: 2
+										, i18nGender: 16777216
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Swamy", "Narayan"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100011597109802": {
+										id: "100011597109802"
+										, name: "Pooja Mehra"
+										, firstName: "Pooja"
+										, vanity: ""
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/12494697_118312618565308_4176422464500305565_n.jpg?oh=af9bb79ed19e57d0d3ac0759d4e30420&oe=58E747AE"
+										, uri: "https: //www.facebook.com/profile.php?id=100011597109802"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Mehra", "Pooja"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100011715308339": {
+										id: "100011715308339"
+										, name: "Bibing DelRosario"
+										, firstName: "Bibing"
+										, vanity: "annalizabibing.delrosario"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/15171055_309792532754588_5498159475372137380_n.jpg?oh=5248a417f4b37988b2712f25a94506a0&oe=58B33E7D"
+										, uri: "https: //www.facebook.com/annalizabibing.delrosario"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["DelRosario", "Bibing"]
+										, alternateName: "bing"
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100012547487540": {
+										id: "100012547487540"
+										, name: "G Hampayya Nayak"
+										, firstName: "G Hampayya"
+										, vanity: "ghampayya.nayak"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/13512247_125156517912597_3184580889611864547_n.jpg?oh=cf1bc147d3af55d5ffe8ab59c520cb8d&oe=58DF6ADB"
+										, uri: "https: //www.facebook.com/ghampayya.nayak"
+										, gender: 2
+										, i18nGender: 16777216
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Nayak", "G", "Hampayya"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100011216979436": {
+										id: "100011216979436"
+										, name: "Richa Sharma"
+										, firstName: "Richa"
+										, vanity: ""
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/p32x32/14642385_302422756808288_3580813274911558028_n.jpg?oh=ac267ecdc9b238a71395df68193aa9f5&oe=58DB3417"
+										, uri: "https: //www.facebook.com/profile.php?id=100011216979436"
+										, gender: 1
+										, i18nGender: 33554432
+										, type: "friend"
+										, is_friend: true
+										, mThumbSrcSmall: null
+										, mThumbSrcLarge: null
+										, dir: null
+										, searchTokens: ["Sharma", "Richa"]
+										, alternateName: ""
+										, is_nonfriend_messenger_contact: false
+									}
+									, "100012185767196": {
+										id: 0
+										, firstName: "Facebook User"
+										, gender: 7
+										, name: "Facebook User"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c9.0.32.32/p32x32/10645251_10150004552801937_4553731092814901385_n.jpg?oh=d0440d3b1bdd8bca1dc3edc11aa865ec&oe=58E0FB26"
+										, type: "user"
+									}
+									, "100010226028059": {
+										id: 0
+										, firstName: "Facebook User"
+										, gender: 7
+										, name: "Facebook User"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c9.0.32.32/p32x32/10645251_10150004552801937_4553731092814901385_n.jpg?oh=d0440d3b1bdd8bca1dc3edc11aa865ec&oe=58E0FB26"
+										, type: "user"
+									}
+									, "100012786757622": {
+										id: 0
+										, firstName: "Facebook User"
+										, gender: 7
+										, name: "Facebook User"
+										, thumbSrc: "https: //scontent.fhyd1-1.fna.fbcdn.net/v/t1.0-1/c9.0.32.32/p32x32/10645251_10150004552801937_4553731092814901385_n.jpg?oh=d0440d3b1bdd8bca1dc3edc11aa865ec&oe=58E0FB26"
+										, type: "user"
+									}
+								}
+								, nearby: []
+							}
+			}
+			], []]]
+				}
+				, allResources: ["smMCF", "Vx1iU", "q5KTO", "Rp3Bl", "gIHqy"]
+				, displayResources: ["Vx1iU"]
+				, id: "async_data_preloader_ChatSidebarInitialDataPreloader"
+				, phase: 4
+			})
+		}), "onPageletArrive async_data_preloader_ChatSidebarInitialDataPreloader", {
+			"root": true
+			, "pagelet": "async_data_preloader_ChatSidebarInitialDataPreloader"
+		})();
+</script>
